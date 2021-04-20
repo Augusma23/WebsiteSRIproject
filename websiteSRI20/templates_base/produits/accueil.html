@@ -1,0 +1,30 @@
+{% extends 'main.html' %}
+
+
+{% block content %}
+
+<div class="container">
+<hr>
+    <div class="row">
+        {% for x in article %}
+        <div class="col">
+            <div class="card h-100" style="width: 18rem;">
+                <img src="{{x.image_url}}" class="card-img-top" alt="Image de l'article">
+                <div class="card-body">
+                    <h5 class="card-title">{{x.titre}}</h5>
+                    <p class="card-text"> {{x.description}}</p>
+
+                    <div class="card-footer">
+        <a href="#" class="btn btn-primary">Voir plus</a>
+      </div>
+                </div>
+            </div>
+        </div>
+
+        {% endfor %}
+
+    </div>
+</div>
+
+{% endblock %}
+sigh:A.A
