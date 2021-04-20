@@ -9,4 +9,4 @@ def index(request):
     return render(request,'produits/accueil.html', {'article':article})
 
 def AdminUser(request):
-    redirect('http://127.0.0.1:8000/admin/')
+    redirect('/admin/')
