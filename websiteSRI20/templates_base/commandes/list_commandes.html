@@ -3,13 +3,15 @@
 
 {% block content %}
 <div class=" container h-100">
+	<h5 style="color:gray;"> Selectionnez le numero de votre article et votre identifiant client pour faire une commande</h5>
+
 <form method="POST" class="post-form" >
 	{% csrf_token %}
 
 	{{ form.as_p }}
 
 
-	<button type="submit" class="save btn"> Envoyer </button>
+	<button type="submit" class="save btn btn-primary"> Envoyer </button>
 </form>
 
 </div>
