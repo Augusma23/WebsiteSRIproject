@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b720fc5-b42d-4875-bb53-cfd738f6c719" name="Default Changelist" comment="Dernière mise à jour du projet">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/websiteSRI20/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/websiteSRI20/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/websiteSRI20/projetsri/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/websiteSRI20/projetsri/views.py" afterDir="false" />
     </list>

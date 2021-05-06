@@ -10,4 +10,4 @@ def index(request):
 
 @login_required(login_url='acces')
 def AdminUser(request):
-    redirect('admin/')
+    redirect('admin')
